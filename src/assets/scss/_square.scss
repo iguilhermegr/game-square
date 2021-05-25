@@ -1,0 +1,28 @@
+@mixin triangule() {
+    position: absolute;
+    border: 100px solid transparent;
+}
+
+#square {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    z-index: 2;
+}
+#top {
+    @include triangule();
+    border-bottom: 100px solid var(--yellow);
+}
+#right {
+    @include triangule();
+    border-left: 100px solid var(--red);
+}
+#bottom {
+    @include triangule();
+    border-top: 100px solid var(--green);
+}
+#left {
+    @include triangule();
+    border-right: 100px solid var(--blue);
+}
