@@ -1,6 +1,6 @@
 <div align="center">
     <h1>🎈 Game Square</h1>
-    <h4>Jogo deseolvido durante o Hcode Café #88 e com playlist oficial no canal da <a href="https://www.youtube.com/channel/UCjWENuSH2gX55-y7QSZiWxA">hcode</a> para o aprendizado de TypeScript, Animation em SCSS e práticas do HTML5  e CSS3 acompanhado do JavaScript.</h4>
+    <h4>Jogo desenvolvido durante o Hcode Café #88 e com playlist oficial no canal da <a href="https://www.youtube.com/channel/UCjWENuSH2gX55-y7QSZiWxA">hcode</a> para o aprendizado de TypeScript, Animation em SCSS e práticas do HTML5  e CSS3 acompanhado do JavaScript.</h4>
     <p>Para saber mais tanto sobre o "Game Square" tanto sobre a <a href="https://hcode.com.br/">Hcode Treinamentos</a> entre nas mídias socias abaixo, e siga-nos:</p>
 </div>
 
