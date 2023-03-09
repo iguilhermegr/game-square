@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-    <a href="https://guilhermedsribeiro.github.io/game-square/src/index.html">Site onde o Projeto é Carregado!</a>
+    <a href="https://guidsribeiro.github.io/game-square/src/index.html">Site onde o Projeto é Carregado!</a>
 </div>
 
 <div align="center">
