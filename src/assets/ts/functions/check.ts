@@ -6,6 +6,9 @@ import {
   startScreeenElement,
 } from './elements.js';
 
+function restart() {
+  window.location.reload();
+}
 export default function check() {
   const circleColor = circleElement().dataset.color;
   const squareColor = squareElement().dataset.color;
@@ -18,6 +21,7 @@ export default function check() {
     audioPlay(audioFail, 1);
     audioMusic.pause();
     console.error('GAME OVER');
+    restart();
     return false;
   }
 }
