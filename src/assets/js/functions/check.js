@@ -2,7 +2,7 @@ import { audioFail, audioMusic, audioPoint } from '../audios/index.js';
 import audioPlay from './audioPlay.js';
 import { circleElement, squareElement, startScreeenElement, } from './elements.js';
 function restart() {
-    window.location.reload();
+    document.location.reload();
 }
 export default function check() {
     var circleColor = circleElement().dataset.color;

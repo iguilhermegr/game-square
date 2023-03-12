@@ -7,7 +7,7 @@ import {
 } from './elements.js';
 
 function restart() {
-  window.location.reload();
+  document.location.reload();
 }
 export default function check() {
   const circleColor = circleElement().dataset.color;
