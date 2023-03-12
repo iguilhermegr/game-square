@@ -1,7 +1,10 @@
 import createCircle from './functions/createCircle.js';
 import initEvents from './functions/initEvents.js';
 import setScore from './functions/setScore.js';
-import { Game } from './functions/gamePoints.js';
+var Game = {
+    score: 0,
+    time: '2',
+};
 function nextCallback() {
     Game.score = Game.score + 1;
     setScore(Game.score);

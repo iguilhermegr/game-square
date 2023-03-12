@@ -1,5 +1,4 @@
 import { audioFail, audioMusic, audioPoint } from '../audios/index.js';
-import { Game } from './gamePoints.js'
 import audioPlay from './audioPlay.js';
 import {
   circleElement,
@@ -19,7 +18,6 @@ export default function check() {
     audioPlay(audioFail, 1);
     audioMusic.pause();
     console.error('GAME OVER');
-    Game.score = 0;
     return false;
   }
 }
